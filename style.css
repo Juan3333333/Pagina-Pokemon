@@ -20,22 +20,27 @@
     width: 100%;
   }
 }
+.container{
+position: absolute;
+}
 
 .superior{
+    position: relative;
     left: 0;
     right: 0;
-    top: 10px;
+    top: 0;
     bottom: 0;
     margin: 0 auto;
     border: solid black 0.1em;
     height: 100px;
-    width: 1900px;
+    width: 250px;
 }
 
 .recta{
+    position: relative;
     border: solid black 0.1em;
-    height: 80px;
-    width: 1500px;
+    height: 50px;
+    width: 150px;
     left: 0;
     right: 0;
     top: 10px;
@@ -44,6 +49,8 @@
 }
 
 .tabla{
+    position: relative;
+    top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
@@ -51,13 +58,14 @@
 
 
 .recuadro{
-    align-items: center;
+    position: absolute;
     flex-grow: 7;
     display: flex;
     border: 0.1em solid black;
     justify-content:center;
     column-gap: 100px;
     font-size: 1.3em;
+    margin-left:100px ;
 
 }
 
@@ -66,7 +74,7 @@
 }
 
 
-.largo-izq{
+.largo-izq {
     margin-top: 50px;
     margin-left: 30px;
     border: solid black 0.1em;
@@ -85,12 +93,80 @@
 }
 
 .informacion1{
+
     z-index: 10;
     border: solid black 0.1em;
-    background-color: red;
-    height: 10px;
-    width: 10px;
-    margin-top: -1000px;
-    margin-left: 100px;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin-top: -950px;
+    margin-left: 350px;
+    background-color: lightgreen;
+}
 
-}    
+img{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.a1{
+    background-color:lightgreen;
+    margin-top: -3px;
+    border: solid black 0.1em;
+}
+
+.informacion2{
+    border: solid black 0.1em;
+    height: 350px;
+    width: 280px;
+    margin-top: -400px;
+    margin-left: 1200px;
+    background-color:goldenrod;
+}
+
+.a2{
+
+}
+
+
+.informacion3{
+
+ 
+}
+
+
+
+.informacion4{
+   
+}
+
+
+
+.informacion5{
+    border: solid black ;
+    margin-top: -200px;
+    margin-left: 600px;
+    height: 100px;
+    width: 100px;
+ 
+}
+
+
+
+.informacion6{
+   border: solid black ;
+   margin-top: 100px;
+   margin-left: 320px;
+   height: 350px;
+   width: 350px;
+
+}
+
+.a6{
+    border: solid black;
+    width: 250px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
