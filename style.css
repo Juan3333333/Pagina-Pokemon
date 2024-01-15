@@ -20,6 +20,7 @@
     width: 100%;
   }
 }
+
 .container{
 position: absolute;
 }
@@ -58,7 +59,6 @@ position: absolute;
 
 
 .recuadro{
-    position: absolute;
     flex-grow: 7;
     display: flex;
     border: 0.1em solid black;
@@ -75,6 +75,7 @@ position: absolute;
 
 
 .largo-izq {
+    position: relative;
     margin-top: 50px;
     margin-left: 30px;
     border: solid black 0.1em;
@@ -84,6 +85,7 @@ position: absolute;
 }
 
 .largo-der{
+    position: relative;
     margin-top: -1000px;
     margin-left: 1600px;
     border: solid black 0.1em;
@@ -95,7 +97,6 @@ position: absolute;
 .informacion1{
 
     z-index: 10;
-    border: solid black 0.1em;
     background-color: white;
     height: 400px;
     width: 400px;
@@ -112,11 +113,9 @@ img{
 .a1{
     background-color:lightgreen;
     margin-top: -3px;
-    border: solid black 0.1em;
 }
 
 .informacion2{
-    border: solid black 0.1em;
     height: 350px;
     width: 280px;
     margin-top: -400px;
@@ -125,48 +124,160 @@ img{
 }
 
 .a2{
-
+    background-color:goldenrod;
+    margin-top: -3px;
 }
 
 
 .informacion3{
-
+    margin-top: 150px;
+    margin-left: 360px;
+    height: 350px;
+    width: 350px;
+    background-color: brown;
  
 }
 
 
+.a3{
+    background-color: brown;
+    width: 250px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
 
 .informacion4{
-   
+    margin-top: -850px;
+    margin-left: 800px;
+    height: 350px;
+    width: 350px; 
+    text-align: center;
+    background-color: palevioletred;
 }
 
-
+.a4{
+background-color: palevioletred;
+}
 
 .informacion5{
-    border: solid black ;
-    margin-top: -200px;
-    margin-left: 600px;
-    height: 100px;
-    width: 100px;
- 
+    height: 350px;
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 800px;
+    background-color: gray;
+    text-align: center;
+}
+
+.a5{
+    background-color: gray;
 }
 
 
+.container1{
+    position: absolute;
+    height: 100px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
 
 .informacion6{
-   border: solid black ;
-   margin-top: 100px;
-   margin-left: 320px;
-   height: 350px;
-   width: 350px;
-
+    margin-top: 100px;
+    text-align: center;
+    background-color: green;
+    height: 450px;
+    width: 500px;
 }
 
 .a6{
-    border: solid black;
-    width: 250px;
-    height: 100px;
-    padding-top: 10px;
-    padding-left: 20px;
+    background-color: green;
 }
+
+.informacion7{
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 600px; 
+    background-color: cyan;
+}
+
+.a7{
+    background-color: cyan;
+}
+
+.informacion8{
+    margin-top: 15px;
+    text-align: center;
+    background-color: plum;
+    width: 500px;
+    height: 500px;
+}
+
+.a8{
+    background-color: plum;
+}
+
+
+
+.largo-der1{
+    position: relative;
+    margin-top: -1170px;
+    margin-left: 1300px;
+    border: solid black 0.1em;
+    height: 1200px;
+    width: 200px;
+    background-color: black;
+
+}
+
+.largo-izq1{
+    position: relative;
+    margin-top: -1070px;
+    margin-left: -270px;
+    border: solid black 0.1em;
+    height: 1000px;
+    width: 200px;
+    background-color: black;
+}
+
+#conteItemsCarrusel{
+    border: 5px solid black;
+    height: 200px;
+    overflow: hidden;
+}
+
+.itemCarrusel{
+    border: 1px solid black;
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    height: 100%;
+}
+
+.flechasCarrusel{
+    background-color: yellow;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute
+}
+
+#tarjetaCarrusel-1{
+    background-color: blue;
+}
+
+#tarjetaCarrusel-2{
+    background-color: cornflowerblue;
+}
+
+#tarjetaCarrusel-3{
+    background-color: cyan;
+}
+
 
