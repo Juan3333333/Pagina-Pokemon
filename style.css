@@ -101,18 +101,30 @@ position: absolute;
 }
 
 .a2{
-
+height: 50px;
+width: 50px;
+background-color: red;
+margin-left: 0px;
 }
 
 .a3{
-   margin-top: 50px;
+height: 50px;
+width: 50px;
+background-color: red;
+margin-top: 50px;
 }
 
 
 .a4{
+height: 50px;
+width: 50px;
+background-color: red;
    margin-top: 150px;
 }
 
 .a5{
+height: 50px;
+width: 50px;
+background-color: red;
     
 }
