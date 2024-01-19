@@ -128,3 +128,87 @@ width: 50px;
 background-color: red;
     
 }
+
+.informacion1{
+    position: relative;
+    top: 700px;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+    border: solid black 0.1em;
+    height: 100px;
+    width: 1525px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    grid-auto-rows: 100px;
+    align-content: stretch;
+}
+
+.b1{
+    border: solid black 0.1em;
+    height: 100px;
+    width: 100px;
+}
+
+.b2{
+    border: solid black 0.1em;
+    height: 100px;
+    width: 100px;
+}
+
+.b3{
+    border: solid black 0.1em;
+    height: 100px;
+    width: 100px;
+}
+
+.b4{
+    border: solid black 0.1em;
+    height: 100px;
+    width: 100px;
+}
+
+.b5{
+    border: solid black 0.1em;
+    height: 100px;
+    width: 100px;
+}
+
+.b6{
+    border: solid black 0.1em;
+    height: 100px;
+    width: 100px;
+}
+
+.datos{
+    position: relative;
+    width: 1525px;
+    height: 500px;
+    top: 1200px;
+    bottom: 0;
+    left: 100px;
+    right: 0;
+}
+
+.correo{
+    width: 1525px;
+    height: 500px;
+    border: solid black 0.1em;
+    background-color: black ;
+}
+
+.electronico{
+    background-color: white;
+    border: solid black 0.1em;
+}
+
+.idioma{
+    background-color: white;
+    border: solid black 0.1em;
+}
+
+.fecha{
+    background-color: white;
+    border: solid black 0.1em;
+}
