@@ -1,38 +1,21 @@
 /* * { border: 0.1em solid black; } */
-
-/* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
+@media (min-width: 600px) {
+    
 }
 
 .container{
 position: absolute;
+left: 150px;
+background-color: white;
 }
 
 .superior{
     position: relative;
-    left: 0;
+    left: 300px;
     right: 0;
     top: 0;
     bottom: 0;
-    margin: 0 auto;
-    border: solid black 0.1em;
+    margin: 0;
     height: 100px;
     width: 250px;
 }
@@ -49,21 +32,13 @@ position: absolute;
     margin: 0 auto;
 }
 
-.tabla{
-    position: relative;
-    top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
-}
-
 
 .recuadro{
     flex-grow: 7;
     display: flex;
     border: 0.1em solid black;
     justify-content:center;
-    column-gap: 100px;
+    column-gap: 50px;
     font-size: 1.3em;
     margin-left:100px ;
 
@@ -95,47 +70,39 @@ position: absolute;
     grid-column: 1/ 3;
     grid-row: 1 / 3;
     margin-left: 100px;
-    height: 400px;
-    width: 300px;
-    
+    height: 600px;
+    width: 600px;
+    font-size: 30px;
+    border-radius: 2%;
 }
 
 .a2{
-height: 50px;
-width: 50px;
 background-color: red;
-margin-left: 0px;
+margin-right: 600px;
+height: 300px;
+width: 300px;
+border-radius: 2%;
+font-size: 25px;
 }
 
 .a3{
-height: 50px;
-width: 50px;
-background-color: red;
-margin-top: 50px;
+margin-top: 200px;
+margin-left: 0px;
+height: 400px;
+width: 300px;
+background-color: lightcoral;
+border-radius: 2%;
+font-size: 18px;
 }
 
 
-.a4{
-height: 50px;
-width: 50px;
-background-color: red;
-   margin-top: 150px;
-}
-
-.a5{
-height: 50px;
-width: 50px;
-background-color: red;
-    
-}
 
 .informacion1{
     position: relative;
-    top: 700px;
+    top: 800px;
     bottom: 0;
     left: 100px;
     right: 0;
-    border: solid black 0.1em;
     height: 100px;
     width: 1525px;
     display: grid;
@@ -146,49 +113,67 @@ background-color: red;
 }
 
 .b1{
-    border: solid black 0.1em;
-    height: 100px;
-    width: 100px;
+
+    height: 400px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 2%;
 }
 
 .b2{
-    border: solid black 0.1em;
-    height: 100px;
-    width: 100px;
+    
+    height: 400px;
+    width: 300px;
+    background-color: orangered;
+    border-radius: 2%;
 }
 
 .b3{
-    border: solid black 0.1em;
-    height: 100px;
-    width: 100px;
+    height: 400px;
+    width: 300px;
+    background-color: cyan;
+    border-radius: 2%;
 }
 
 .b4{
-    border: solid black 0.1em;
-    height: 100px;
-    width: 100px;
+    background-color: yellow;
+    margin-top: 350px;
+    height: 400px;
+    width: 300px;
+    border-radius: 2%;
 }
 
 .b5{
-    border: solid black 0.1em;
-    height: 100px;
-    width: 100px;
+    background-color: black;
+    margin-top: 350px;
+    height: 400px;
+    width: 300px;
+    color: white;
+    border-radius: 2%;
 }
 
 .b6{
-    border: solid black 0.1em;
-    height: 100px;
-    width: 100px;
+    background-color: lightsalmon;
+    margin-top: 350px;
+    height: 400px;
+    width: 300px;
+    border-radius: 2%;
 }
 
 .datos{
     position: relative;
     width: 1525px;
     height: 500px;
-    top: 1200px;
+    top: 1800px;
     bottom: 0;
     left: 100px;
     right: 0;
+}
+
+.Registrate{
+    width: 1525px;
+    height: 500px;
+    border: solid black 0.1em;
 }
 
 .correo{
@@ -198,17 +183,11 @@ background-color: red;
     background-color: black ;
 }
 
-.electronico{
-    background-color: white;
+.rectangulo{
+    margin-top: 50px;
+    margin-left: 400px;
+    height: 100px;
+    width: 1000px;
     border: solid black 0.1em;
-}
-
-.idioma{
-    background-color: white;
-    border: solid black 0.1em;
-}
-
-.fecha{
-    background-color: white;
-    border: solid black 0.1em;
+    color: white;
 }
