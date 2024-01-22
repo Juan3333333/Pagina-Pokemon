@@ -1,12 +1,15 @@
 /* * { border: 0.1em solid black; } */
 @media (min-width: 600px) {
-    
+ 
+}
+
+#body{
+    background-color: black;
 }
 
 .container{
 position: absolute;
-left: 150px;
-background-color: white;
+left: 300px;
 }
 
 .superior{
@@ -38,9 +41,10 @@ background-color: white;
     display: flex;
     border: 0.1em solid black;
     justify-content:center;
-    column-gap: 50px;
+    column-gap: 20px;
     font-size: 1.3em;
-    margin-left:100px ;
+    margin-left: 100px;
+    
 
 }
 
@@ -48,15 +52,33 @@ background-color: white;
     display: flex;
 }
 
+.container1{
+    height: 2500px;
+    width: 1850px;
+    position: absolute;
+    margin-top: 150px;
+    background-color: black;
+}
+
+.container2{
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    height: 1800px;
+    width: 1200px;
+}
+
 .informacion{
     position:relative;
-    top: 10px;
+    top: 20px;
     bottom: 0;
     left: 0;
     right: 0;
     height: 100px;
-    width: 1525px;
-    margin-left: 100px;
+    width: 1500spx;
+    margin-left: 50px;
     align-content: stretch;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -65,6 +87,7 @@ background-color: white;
 }
 
 .a1{
+    position: absolute;
     background-color: chartreuse;
     display: grid;
     grid-column: 1/ 3;
@@ -77,8 +100,9 @@ background-color: white;
 }
 
 .a2{
+position: absolute;
 background-color: red;
-margin-right: 600px;
+margin-left: 800px;
 height: 300px;
 width: 300px;
 border-radius: 2%;
@@ -86,8 +110,8 @@ font-size: 25px;
 }
 
 .a3{
-margin-top: 200px;
-margin-left: 0px;
+margin-top: 400px;
+margin-left: 800px;
 height: 400px;
 width: 300px;
 background-color: lightcoral;
@@ -113,7 +137,7 @@ font-size: 18px;
 }
 
 .b1{
-
+    position: absolute;
     height: 400px;
     width: 300px;
     background-color: gray;
@@ -121,7 +145,8 @@ font-size: 18px;
 }
 
 .b2{
-    
+    position: absolute;
+    margin-left: 370px ;
     height: 400px;
     width: 300px;
     background-color: orangered;
@@ -129,6 +154,8 @@ font-size: 18px;
 }
 
 .b3{
+    margin-left: 750px;
+    position: absolute;
     height: 400px;
     width: 300px;
     background-color: cyan;
@@ -136,16 +163,19 @@ font-size: 18px;
 }
 
 .b4{
+    position: absolute;
     background-color: yellow;
-    margin-top: 350px;
+    margin-top: 450px;
     height: 400px;
     width: 300px;
     border-radius: 2%;
 }
 
 .b5{
+    margin-left: 370px ;
+    position: absolute;
     background-color: black;
-    margin-top: 350px;
+    margin-top: 450px;
     height: 400px;
     width: 300px;
     color: white;
@@ -153,10 +183,16 @@ font-size: 18px;
 }
 
 .b6{
+    margin-left: 750px;
+    position: absolute;
     background-color: lightsalmon;
-    margin-top: 350px;
+    margin-top: 450px;
     height: 400px;
     width: 300px;
+    border-radius: 2%;
+}
+
+img{
     border-radius: 2%;
 }
 
@@ -164,20 +200,14 @@ font-size: 18px;
     position: relative;
     width: 1525px;
     height: 500px;
-    top: 1800px;
+    top: 900px;
     bottom: 0;
-    left: 100px;
-    right: 0;
-}
-
-.Registrate{
-    width: 1525px;
-    height: 500px;
-    border: solid black 0.1em;
+    left: 0;
+    right: 200px;
 }
 
 .correo{
-    width: 1525px;
+    width: 1200px;
     height: 500px;
     border: solid black 0.1em;
     background-color: black ;
@@ -185,9 +215,8 @@ font-size: 18px;
 
 .rectangulo{
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 250px;
     height: 100px;
     width: 1000px;
-    border: solid black 0.1em;
     color: white;
 }
