@@ -62,7 +62,7 @@ left: 300px;
     z-index: 1000;
     background-color: white;
     margin-left: 300px;
-    margin-top: 50px;
+    margin-top: 0px;
     height: 2050px;
     width: 1200px;
 }
@@ -300,8 +300,4 @@ font-size: 18px;
 .conteCarrousel{
     height: 300px;
 
-}
-
-@media (max-width:600px){
-    
 }
