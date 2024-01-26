@@ -50,7 +50,7 @@ left: 300px;
 }
 
 .container1{
-    height: 2500px;
+    height: 2600px;
     width: 1850px;
     position: absolute;
     margin-top: 150px;
@@ -63,7 +63,7 @@ left: 300px;
     background-color: white;
     margin-left: 300px;
     margin-top: 50px;
-    height: 1900px;
+    height: 2050px;
     width: 1200px;
 }
 
@@ -120,7 +120,7 @@ font-size: 18px;
 
 .informacion1{
     position: relative;
-    top: 900px;
+    top: 1050px;
     bottom: 0;
     left: 100px;
     right: 0;
@@ -193,7 +193,7 @@ font-size: 18px;
     position: absolute;
     width: 1525px;
     height: 500px;
-    top: 1900px;
+    top: 2050px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -297,9 +297,7 @@ font-size: 18px;
     color: white;
 }
 
-@media (min-width: 600px) {
+.conteCarrousel{
+    height: 300px;
 
-    .container{
-        grid-template-columns: auto;
-    }
 }
